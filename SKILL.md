@@ -1,6 +1,6 @@
 ---
 name: attio
-description: Manage Attio CRM records (companies, people, deals, tasks, notes). Search, create, update records and manage deal pipelines.
+description: Generic Attio CRM operations for any workspace: search/create/update companies, people, deals, tasks, notes. Manage deal pipelines. Use when: 'Attio' for non-ShapeScale projects, generic CRM operations. NOT for ShapeScale-specific CRM workflows (use shapescale-crm which has custom deal stages, demo tracking, and sales workflows).
 metadata: {"moltbot":{"emoji":"📇","requires":{"bins":["attio"],"env":["ATTIO_ACCESS_TOKEN"]}}}
 ---
 
